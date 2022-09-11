@@ -274,3 +274,81 @@ pre{
     text-transform: uppercase;
     
 }
+@media screen and (min-width: 820px) and (max-width: 1000px) {
+    h1 {
+        font-size: 60px;
+        font-weight: normal;
+    }
+    h2{
+        margin-left: 70px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    .ava{
+        width: 220px;
+        height: 220px;
+    }
+    .skills__inner{
+        margin: 25px 25px 25px 70px;
+    }
+    .experience>p, .english-lvl>p{
+        margin-left: 75px;    
+    }
+    pre{
+        margin: 0 0 0 75px;
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+    ::-webkit-scrollbar{
+        background: #e5f1ff;
+        width: 10px;
+      }
+
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header>.side_right {
+        box-sizing: border-box;
+        width: 100%;
+        background-color: #e5f1ff;
+    }
+    main{
+        flex-direction: column;
+    }
+    .side_left {
+        width: 100%;
+        background-color: #e5f1ff;
+    }
+    main>.side_left>div{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .side_right{
+        width: 100%;
+    }
+    main>.side_right>div{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+}
+@media screen and (max-width: 540px) {
+    ::-webkit-scrollbar{
+        width: 5px;
+      }
+      
+    main>.side_left>div{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    main>.side_right>div{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}
